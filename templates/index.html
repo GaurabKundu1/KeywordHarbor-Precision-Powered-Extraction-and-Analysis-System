@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Keyword Harbor</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link href="https://github.com/GaurabKundu1/JobFit-Explorer-Resume-Category-Classifier-and-Automated-Skills-Recognition-System/assets/86102231/49cd6286-fedf-43dd-9bd8-5431ae0ee319" rel="icon">
+    <style>
+        body {
+            background: url('https://github.com/GaurabKundu1/JobFit-Explorer-Resume-Category-Classifier-and-Automated-Skills-Recognition-System/assets/86102231/046aa058-da98-4974-acdb-eb33cf41c2f0');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .content {
+            max-width: 600px; /* Increase the width of the content on the left */
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 15px;
+            color: #333;
+        }
+
+        .form-container {
+            max-width: 400px;
+            background: linear-gradient(120deg, #2d90e2, #4A00E0);
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h2 class="text-center text-green">KeywordHarbor: Precision-Powered Extraction & Analysis System</h2>
+            <p>
+                <b>KeywordHarbor</b> is a keyword extraction app that automates the identification of crucial words or phrases in a given text, aiding in document summarization, categorization, and information retrieval.
+            </p>
+        
+            <p>
+                Using techniques like frequency-based methods, graph-based methods, and machine learning, the app extracts meaningful insights for tasks such as summarization, sentiment analysis, and topic modeling.
+            </p>
+        
+            <p>
+                Addressing challenges like polysemy and noise, the app provides a fundamental solution for efficient text analysis.
+            </p>
+        
+            <p>
+                With a user-friendly interface, users can easily upload documents for keyword extraction or search for specific keywords within a collection, making it valuable for researchers and analysts.
+            </p>
+        
+            <p>
+                In summary, the Keyword Extraction app is a versatile tool for uncovering key themes and concepts in textual data, serving researchers, analysts, and professionals in various fields.
+            </p>
+        </div>
+        <div class="form-container">
+            <h2 class="text-center text-green">KeywordHarbor</h2>
+            <form method="POST" action="/extract_keywords" enctype="multipart/form-data">
+                <div class="form-group">
+                    <label for="document">Upload Document:</label>
+                    <input type="file" name="file" class="form-control" id="document">
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Extract Keywords</button>
+                </div>
+            </form>
+            <hr>
+            <form method="POST" action="/search_keywords">
+                <div class="form-group">
+                    <label for="search">Search Keywords:</label>
+                    <input type="text" name="search" class="form-control" id="search">
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary">Search</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
