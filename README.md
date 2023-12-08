@@ -81,7 +81,7 @@ pip install -r requirements.txt
 
 3. Download the Dataset from this [Link](https://www.kaggle.com/datasets/benhamner/nips-papers)
 
-You only nedd the papers.csv
+You only need the papers.csv
 
 4. Now Run all the cells of KeyWord_Extraction.ipynb file to generate count_vectorizer.pkl, feature_names.pkl and tfidf_transformer.pkl files respectively.
 
@@ -98,3 +98,8 @@ Go to http://127.0.0.1:5000 in your Browser to access the app.
 Here is a sneakpeak of the app
 
 <img src="https://github.com/GaurabKundu1/KeywordHarbor-Precision-Powered-Extraction-and-Analysis-System/assets/86102231/d352454d-c58d-4c05-9c6c-cc0df7b1fdb3">
+
+See the App Working
+
+https://github.com/GaurabKundu1/KeywordHarbor-Precision-Powered-Extraction-and-Analysis-System/assets/86102231/94069513-ea88-4ee9-bd5f-fe7ae23ffbf7
+
