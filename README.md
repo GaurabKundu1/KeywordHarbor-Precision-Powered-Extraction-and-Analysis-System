@@ -95,11 +95,11 @@ It should say Running on http://127.0.0.1:5000
 
 Go to http://127.0.0.1:5000 in your Browser to access the app.
 
-Here is a sneakpeak of the app
+#### Here is a sneakpeak of the app
 
 <img src="https://github.com/GaurabKundu1/KeywordHarbor-Precision-Powered-Extraction-and-Analysis-System/assets/86102231/d352454d-c58d-4c05-9c6c-cc0df7b1fdb3">
 
-See the App Working
+#### See the App Working
 
 https://github.com/GaurabKundu1/KeywordHarbor-Precision-Powered-Extraction-and-Analysis-System/assets/86102231/94069513-ea88-4ee9-bd5f-fe7ae23ffbf7
 
